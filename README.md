@@ -1,7 +1,7 @@
 # Hi, I'm Manny 👋
 
-### Senior Software Engineer · Distributed Systems · Cloud Platform Architecture · Reliability Engineering
-📍 Edmonds, WA &nbsp;|&nbsp; 💼 18 Years at Microsoft &nbsp;|&nbsp; 📜 Patent Holder
+### Senior Software Engineer · Distributed Systems · Cloud Platforms · Reliability Engineering
+📍 Greater Seattle Area &nbsp;|&nbsp; 💼 20+ Years in Software Engineering
 
 ---
 
@@ -21,18 +21,19 @@
 
 ## About Me
 
-18-year Microsoft engineer with deep ownership across Xbox Live, Mixer, Azure Communication Services, Xbox Commerce, and PlayFab. I specialize in distributed systems, billing and monetization infrastructure, and reliability engineering at global scale.
+Senior Software Engineer with more than 20 years of experience designing and operating large-scale distributed systems, cloud services, and monetization platforms serving millions of users. My background spans Microsoft Gaming, commerce, and Azure, with deep expertise in billing, database migrations, security modernization, service reliability, and cross-team technical leadership.
 
 ---
 
 ## ⚡ Career Highlights
 
-- 🏆 **15x distributed lock infrastructure cost reduction** — redesigned PlayFab's Billing Storage Processor from an Event Hub prototype into a CosmosDB change-feed billing platform covering 150+ production tables
-- 📉 **93% CosmosDB request unit (RU) reduction** — live-traffic migration of PlayFab's largest production tables from AWS DynamoDB to Azure CosmosDB, zero downtime
-- 🛒 **120M+ monthly active users** — owned the catalog and discovery surfaces connecting 120M+ monthly active users to Xbox's digital content ecosystem, at 99.9% availability and sub-second latency
-- 💰 **ACS Monetization platform** — designed the full data pipeline, billing, and monetization microservices for Azure Communication Services; maintained 99.9% availability at global scale
-- 🔐 **SSRF compliance across all PlayFab services** — built `PlayFabHttpClientBuilder`, adopted org-wide, achieving 100% compliant public IP infrastructure via Bicep AKS Networking modules
-- 📜 **U.S. Patent No. 10,158,495** — co-invented a distributed system enabling remote conversion of retail Xbox One consoles into developer kits without physical hardware access
+- 💰 **Usage-based monetization at scale** — architected and launched a Cosmos DB change-feed billing processor covering 150+ tables, reducing lease processing by 93% and saving approximately \$39,000 annually
+- 🔄 **100+ TB zero-downtime migration** — migrated live sensitive data from Amazon DynamoDB to co-located Azure Cosmos DB with no customer impact
+- 🗄️ **PostgreSQL modernization** — led a seven-stage PostgreSQL 12-to-18 migration for 200 GB of data at 500+ requests per second with no downtime or data loss
+- 🔐 **Platform security** — built reusable SSRF protection for 100+ outbound integrations and modernized Entra ID authentication with workload identity federation
+- 💬 **Azure Communication Services monetization** — created a SOX-compliant consumption-billing flow for seven offerings and architected a telecom financial-reporting platform for PSTN invoicing and tax calculation
+- 🎮 **Cross-platform commerce** — built virtual-currency purchase and fulfillment workflows generating \$1.469 million in Ember purchases within five months across 86 markets
+- 🛡️ **Xbox safety and developer services** — led development of an image-moderation service screening 50–150 million images annually and built services supporting approximately 4,000–8,000 game studios worldwide
 
 ---
 
@@ -40,11 +41,12 @@
 
 | Team | Role | Years |
 |---|---|---|
-| PlayFab | Senior Software Engineer | 2023 – 2026 |
-| Xbox Commerce | Senior Software Engineering Lead | 2022 – 2023 |
-| Azure Communication Services | Senior SWE → Senior Engineering Manager | 2020 – 2022 |
-| Mixer | Senior Software Engineer | 2018 – 2020 |
-| Xbox Live | Software Engineer II | 2014 – 2018 |
+| PlayFab | Senior Software Engineer | 2023–2026 |
+| Xbox.com Commerce | Senior Software Engineering Lead | 2022–2023 |
+| Azure Communication Services | Senior Software Engineer → Senior Engineering Manager | 2020–2022 |
+| Mixer | Senior Software Engineer | 2018–2020 |
+| Xbox Live | Software Development Engineer 2 | 2014–2018 |
+| Xbox Publishing & XNA Creators’ Club | Software Development Engineer in Test | 2007–2014 |
 
 ---
 
@@ -54,27 +56,35 @@
 
 ![C#](https://img.shields.io/badge/C%23-239120?style=flat&logo=c-sharp&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white)
 
-**Cloud & Infrastructure**
+**Cloud, Data & Infrastructure**
 
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoft-azure&logoColor=white)
-![AKS](https://img.shields.io/badge/AKS_/_Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
-![Cosmos DB](https://img.shields.io/badge/Cosmos_DB-003366?style=flat&logo=microsoft-azure&logoColor=white)
-![Event Hub](https://img.shields.io/badge/Event_Hub-0078D4?style=flat&logo=microsoft-azure&logoColor=white)
-![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=flat&logo=databricks&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoftazure&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
+![Cosmos DB](https://img.shields.io/badge/Cosmos_DB-0078D4?style=flat&logo=microsoftazure&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
-![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat&logo=microsoft-sql-server&logoColor=white)
-![Bicep](https://img.shields.io/badge/Bicep_/_IaC-0078D4?style=flat&logo=microsoft-azure&logoColor=white)
+![DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=flat&logo=amazondynamodb&logoColor=white)
+![Azure Event Hubs](https://img.shields.io/badge/Azure_Event_Hubs-0078D4?style=flat&logo=microsoftazure&logoColor=white)
+
+**Additional Expertise**
+
+Distributed systems · Cloud architecture · Event-driven systems · Backend services and APIs · Azure Storage · Azure Queues · Entra ID · Workload identity federation · SSRF protection · Incident response · Kusto
+
+---
+
+## 🚀 Open Source Projects
+
+- **[MicroEndpoint Stack](https://github.com/manny-ovena/microendpoint-stack)** — Go and Kubernetes platform for independently deployable micro-endpoints, event subscribers, and data-access brokers
+- **[Kube NVIDIA Monitoring](https://github.com/manny-ovena/kube-nvidia-monitoring)** — Kubernetes GPU observability environment using k3s, Helm, NVIDIA Device Plugin, DCGM Exporter, Prometheus, and Grafana
+- **[Embedding Storage](https://github.com/manny-ovena/embedding-storage)** — async Rust semantic-search platform integrating Milvus, embedding generation, metadata-filtered retrieval, and idempotent ingestion
 
 ---
 
 ## 🎓 Education
 
-**B.A., Professional Studies** — Seattle Pacific University  
-*Summa Cum Laude · GPA: 3.98 · Minor: Computer Science*
-
-**A.A.S., Computer Information Systems Programming** — North Seattle College  
-*Summa Cum Laude*
+**B.A., Professional Studies** — Seattle Pacific University 
+*Summa Cum Laude · Computer Science minor*
 
 ---
 
